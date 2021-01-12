@@ -1,0 +1,14 @@
+Package: CSREC
+Type: Package
+Title: Compressed sensing for signal reconstruction
+Version: 1.0
+Date: 2021-01-11
+Author: Yibo Li,Xiao Han,Haoran Zhang
+Maintainer: Yibo Li <liyibo@ruc.edu.cn>
+Description:This package is used for the reconstruction of signal transmission.  It obtain four ways to solve signal reconstruction include ADMM, IHT, ISTA, FISTA. Compressed sensing can obtain the recovered signal by sampling the original signal and reconstructing the signal.
+
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.5)
+LinkingTo: Rcpp, RcppArmadillo
+NeedsCompilation: yes
+Packaged: 2021-01-11 14:14:39 UTC; L
